@@ -20,7 +20,7 @@ def detect_language(text: str) -> str:
 
         # Basic Latin letters (English)
         elif ('a' <= ch.lower() <= 'z'):
-            counts["english"] += 1
+            counts["english"] += 1 
 
     detected_language = max(counts, key=lambda x: counts[x])
 
