@@ -1,0 +1,17 @@
+# Ignore the entire Raw folder (usually too big for GitHub)
+Raw/
+
+# Ignore everything in the Processed folder...
+Processed/*
+
+# ...EXCEPT for your specific output file
+!Processed/en_or.txt
+!Processed/hi_en.txt
+
+# Ignore Python cache files (helps keep your repo clean)
+__pycache__/
+*.pyc
+
+# Ignore environment files if you use them
+.env
+venv/
