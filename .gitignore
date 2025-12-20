@@ -6,7 +6,7 @@ Processed/*
 
 # ...EXCEPT for your specific output file
 !Processed/en_or.txt
-!Processed/hi_en.txt
+!Processed
 
 # Ignore Python cache files (helps keep your repo clean)
 __pycache__/
